@@ -1,2 +1,2 @@
 # InternshipCardProj
-Card Dealing Program
+Card Dealing Program. Program begins with a sorted deck then gives the user the option to either shuffle the deck, remove one card, remove multiple cards, or place cards back in the deck. Once a card is removed, the card's suit and value is printed to the screen. All edge cases and input validations have been considered. One thing worth noting about design choise is that if the user chooses to remove multiple cards from the deck and then enters a number bigger than the number of cards left in the deck, I made the decision to have the program remove all the cards left in the deck then print that all cards have been removed from the deck, rather than it just saying it cannot remove that number of cards in the deck.
